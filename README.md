@@ -14,7 +14,7 @@
 方式一（推荐，通过Hermes技能中心）：
 
 ```bash
-hermes skills install hermes skills install https://github.com/x18815379395-wq/hermes-pe-diligence-framework
+hermes skills install https://raw.githubusercontent.com/x18815379395-wq/hermes-pe-diligence-framework/main/SKILL.md
 ```
 
 方式二（手动安装，从GitHub克隆）：
@@ -22,6 +22,8 @@ hermes skills install hermes skills install https://github.com/x18815379395-wq/h
 ```bash
 git clone https://github.com/x18815379395-wq/hermes-pe-diligence-framework.git ~/.hermes/skills/financial-risk/pe-diligence-framework
 hermes reload-skills
+
+> 注意：`hermes skills install` 方式需要Hermes Agent支持从GitHub URL安装SKILL.md。若不支持，请使用手动克隆方式。
 ```
 
 ## 使用方法
